@@ -4938,8 +4938,8 @@ h5 {
   transition: 0.3s all ease-in-out;
   margin-bottom: 30px;
   background: #07000A;
-  border: 2.10333px solid rgba(218, 72, 255, 0.4);
-  box-shadow: inset 0px 0px 57.3156px rgba(218, 72, 255, 0.6);
+  border: 2.10333px solid #da48ff66;
+  box-shadow: inset 0px 0px 57.3156px #da48ff99;
   clip-path: polygon(0 28px, 28px 0, calc(100% - 28px) 0, 100% 28px, 100% calc(100% - 28px), calc(100% - 28px) 100%, 28px 100%, 0% calc(100% - 28px), 0% 28px);
 }
 
@@ -7858,7 +7858,7 @@ form button.btn-action {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(165, 102, 254, 0.2);
+  background: none;
 }
 
 .blog-page-2 .blog-page__main .main-content .blog-box .image img {
