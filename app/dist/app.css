@@ -8739,7 +8739,7 @@ form button.btn-action {
 
 .about.about.style-6 {
   overflow: hidden;
-  background: linear-gradient(153.06deg, #5C1594 -0.31%, #210A5C 99.69%);
+  /* background: linear-gradient(153.06deg, #5C1594 -0.31%, #210A5C 99.69%); */
 }
 
 .about.about.style-6 .block-text {
