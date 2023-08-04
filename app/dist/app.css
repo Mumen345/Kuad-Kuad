@@ -8739,11 +8739,12 @@ form button.btn-action {
 
 .about.about.style-6 {
   overflow: hidden;
-  /* background: linear-gradient(153.06deg, #5C1594 -0.31%, #210A5C 99.69%); */
+  padding: 50px 0;
+
 }
 
 .about.about.style-6 .block-text {
-  padding-top: 132px;
+  padding-top: 70px;
 }
 
 .about.about.style-6 .block-text .title {
@@ -15223,7 +15224,6 @@ screen and (max-height: 300px) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* background-color: green; */
   }
 
   .second {
@@ -15247,5 +15247,58 @@ screen and (max-height: 300px) {
     text-align: center;
   }
 }
+
+.card li {
+  list-style-type: disc;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+.card button {
+  width: 200px;
+  margin-top: 30px;
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  transition: all 0.3s;
+  cursor: pointer;
+  display: inline-block;
+  color: #161616;
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 10px;
+  background: #0d0d0d;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  padding: 50px 40px;
+  cursor: pointer;
+  width: 75%;
+  margin: 20px auto;
+}
+
+.card h3 {
+  font-weight: 600;
+}
+
+
+@media(max-width: 990px) {
+  .card {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .card button {
+    width: 100%;
+  }
+}
+
+
+/* The Modal (background) */
+
 
 /*# sourceMappingURL=app.css.map */
