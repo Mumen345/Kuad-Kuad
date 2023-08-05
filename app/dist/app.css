@@ -15298,7 +15298,24 @@ screen and (max-height: 300px) {
 }
 
 
-/* The Modal (background) */
+/* contact us */
+.valid_info_name,
+.valid_info_email,
+.valid_info_message {
+  display: inline-block;
+  font-size: 13px;
+  margin: -10px 2px;
+}
+
+.valid {
+  border: 2px solid green;
+  outline-color: green;
+}
+
+.invalid {
+  border: 2px solid red;
+  outline-color: red;
+}
 
 
 /*# sourceMappingURL=app.css.map */

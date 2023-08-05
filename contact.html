@@ -5,15 +5,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kuadratik</title>
+        <meta name="description" content="We help individuals and small businesses avoid the rigours of manual procedures and provide solutions that result in good and long-term change for our clients, people, and society. Kuadratik is based in Toronto, Canada, and serves businesses in the retail, logistics, fintech and edutech sectors globally. In all we do, we are dedicated to quality and service excellence, giving our all to clients and earning their trust through our professional behavior and emotional intelligence. We lead with integrity throughout our organization, with a strong dedication to client success and a desire to serve and better the communities in which we work. We inspire confidence and enable change in everything we do in a world where rapid change and tremendous digital disruption are the new normal.
+        ">
+        <meta name="keywords"
+            content="Technology , Gadgets , software-as-a-service, software, mobile applications, web apps, web applications, seo, innovation, best, porpular, smart, team">
 
+        <title>Contact</title>
         <!-- Styles -->
         <link rel="stylesheet" href="app/dist/app.css">
         <link rel="stylesheet" href="app/dist/swiper-bundle.min.css">
         <!-- end Styles -->
 
         <!-- Favicon and Touch Icons  -->
-        <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+        <link rel="shortcut icon" href="assets/images/favicon.png">
         <link rel="apple-touch-icon-precomposed" href="assets/images/partner/favicon.html">
 
     </head>
@@ -88,21 +92,24 @@
                         <div class="icon"><span class="icon-Calling"></span></div>
                         <h5 class="fs-20"> <a href="tel:+1 647-470-6922"></a> +1 647-470-6922</h5>
                     </li>
-                    <li>
-                        <div class="icon"><span class="icon-telegram"></span></div>
-                        <h5 class="fs-20">Join us on Telegram</h5>
-                    </li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <div class="contact__form">
-                    <form action="#">
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Email">
-                        <input type="tel" placeholder="Phone Number">
-                        <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                    <form action="#" method="POST">
+                        <div>
+                            <input name="name" id="name" autocomplete="on" required type="text" placeholder="Full Name">
+                            <span class="valid_info_name"></span>
 
-                        <button class="button"><span>Submit</span></button>
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                            <span class="valid_info_email"></span>
+                            <textarea name="message" id="message" placeholder="Your message" rows="3"
+                                placeholder="Message"></textarea>
+                            <span class="valid_info_message"></span>
+                        </div>
+                        <a class="btn-action-outline style-4" type="submit" id="form-submit">
+                            <span>Send Message</span>
+                        </a>
                     </form>
                 </div>
             </div>
