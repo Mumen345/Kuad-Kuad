@@ -940,8 +940,8 @@ h5 {
 }
 
 .creation .block-text .title {
-  font-family: "Zen Dots";
-  font-weight: 400;
+  font-family: "Inter";
+  font-weight: 800;
 }
 
 .creation .block-text p {
@@ -6719,8 +6719,8 @@ h5 {
 }
 
 .section-faq.style-2 .block-text .heading {
-  font-family: "Zen Dots";
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
 
 .section-faq.style-2 .block-text p {
@@ -6798,7 +6798,7 @@ h5 {
   text-transform: capitalize;
   margin-bottom: 0;
   position: relative;
-  font-family: "Zen Dots";
+  font-family: "Inter";
   font-weight: 400;
 }
 
